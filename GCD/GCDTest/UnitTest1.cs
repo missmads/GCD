@@ -6,6 +6,7 @@ namespace GCDTest
     [TestClass]
     public class UnitTest1
     {
+        //Check the while loop if the inputs are equal to 0
         [TestMethod]
         public void TestIf0()
         {
@@ -27,6 +28,7 @@ namespace GCDTest
             Assert.AreEqual((firstNumber == 0 ? secondNumber : firstNumber), 0);
         }
 
+        //Check the while loop if the inputs are not equal to zero, and check the if statement when the first number is greater than the second
         [TestMethod]
         public void TestIfNot0()
         {
@@ -49,6 +51,7 @@ namespace GCDTest
 
         }
 
+        //Check the if statement when the second number is greater than the first and when the else runs second bigger than first
         [TestMethod]
         public void TestIfBgreaterThanA()
         {
@@ -71,6 +74,7 @@ namespace GCDTest
 
         }
 
+        //Check the if statement when the numbers are the same and when the else runs with identical numbers
         [TestMethod]
         public void TestIfEqual()
         {
